@@ -45,10 +45,10 @@
         </div>
     </script>
     <script>
-        var source = $("#template").html();
+        var source = jQuery("#template").html();
         var template = Handlebars.compile(source);
         var output = template(data);
-        $("#templateContainer").append(output);
+        jQuery("#templateContainer").append(output);
     </script>
 </body>
 </html>
